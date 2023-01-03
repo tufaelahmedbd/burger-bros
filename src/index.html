@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer type="module"></script>
     <title>Burger Bros</title>
   </head>
   <body class="bg-gray-100 text-gray-700">
@@ -35,8 +36,10 @@
     </header>
     <main>
       <section class="burgers-section container mx-auto py-10">
-        <div class="burgers-card-wrapper">
-          <div
+        <div
+          class="burgers-card-wrapper grid grid-cols-4 gap-10 justify-items-center"
+        >
+          <!-- <div
             class="burger-card rounded-lg shadow-md overflow-hidden w-96 h-96 bg-white"
           >
             <div
@@ -57,7 +60,7 @@
                 Order now
               </button>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
